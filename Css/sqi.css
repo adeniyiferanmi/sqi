@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    /* width: 100%; */
+}
+.image img{
+    width: 75px;
+}
+.lists{
+    /* width: 100% */
+}
+.lists ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-top: 20px;
+}
+.lists li{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: rgb(24,45,144);
+    font-weight: 500;
+}
+.width{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.356);
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+.icon {
+    padding-top: 12px;
+    display: none;
+}
+.icon i{
+    font-size: 2rem;
+    color: rgb(24,45,144);
+}
+.section1-width{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.image2 img{
+    width: 100%;
+}
+.text{
+    padding-top: 60px;
+     /* border: 1px solid red; */
+}
+.text h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 70px;
+    width: 500px;
+    /* border: 1px solid red; */
+    color: rgb(0,14,66);
+}
+.section1{
+    background-color: rgb(255,253,246);
+    padding-top: 20px;
+}
+.text p{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding-top: 15px;
+    line-height: 28px;
+    color: rgb(71, 68, 68);
+    width: 500px;
+    /* width: 60%; */
+}
+.image2{
+    width: 100%;
+     /* border: 1px solid red; */
+}
+.text{
+    width: 100%;
+}
+.text button{
+    width: 150px;
+    background-color: rgb(0,32,138);
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+@media (max-width:1100px){
+    .container{
+        width: 95%;
+    }
+     .section1-width{
+        width: 95%;
+    }
+
+}
+@media (max-width:977px){
+    .lists{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .section1-width{
+        display: block;
+    }
+   .text h1{
+    width: 100%;
+   }
+   .text p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.445);
+   }
+}
